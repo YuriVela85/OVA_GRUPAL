@@ -11,8 +11,6 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
-
-        
      </head>
     <body>	
         <Div id="contenidos">
@@ -27,7 +25,14 @@
     		<nav>
               <ul class="menu" id="nav">
                 <li><a href="index.html" class="menu">Inicio</a></li>
-                <li><a href="lecturas.html" class="menu">Lecturas</a></li>
+
+                <li><a href="#" class="menu">Lecturas</a>
+                    <ul>
+                        <li><a href="Lecturas1.html" target="_self">Lectura 1</a></li>
+                        <li><a href="Lecturas2.html" target="_self">Lectura 2</a></li>
+                        <li><a href="Lecturas3.html" target="_self">Lectura 3</a></li>
+                    </ul>
+                </li>
                 <li><a href="multimedia.html" class="menu">Multimedia</a></li>
                 <li><a href="#" class="menu">Actividades</a>
                     <ul>
@@ -39,14 +44,15 @@
                 <div id="apDiv19">
                 <center>
                 	<div id="cuentavisitas"></div>
-						<script>yu=function(id){return document.getElementById(id);}
-							if(localStorage){
-							if(localStorage['visitas']==undefined){
-							localStorage['visitas']=0;
-							}var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
-							var num=localStorage['visitas'];
-							var mensaje=num + " visitas";
-							 yu('cuentavisitas').innerHTML=mensaje;}
+						<script>yu = function (id) { return document.getElementById(id); }
+						    if (localStorage) {
+						        if (localStorage['visitas'] == undefined) {
+						            localStorage['visitas'] = 0;
+						        } var n = parseInt(localStorage['visitas']); localStorage['visitas'] = 1 + n;
+						        var num = localStorage['visitas'];
+						        var mensaje = num + " visitas";
+						        yu('cuentavisitas').innerHTML = mensaje;
+						    }
                         </script>
                 </center></div>
                 <div id="apDiv4"><a id="l1" target="_blank" rel="nofollow" href="https://www.facebook.com/Universidad-Nacional-Abierta-y-a-Distancia-UNAD-285790428108305/"><img title="Facebook"border="0" src="img/facebook_aqu_32.png" alt="Facebook" /></a><a href="https://www.youtube.com/user/universidadunad" target="_blank"><img src="img/youtube.png" alt="YouTube" title="Twitter" border="0" /></a><span class="nsb_container"><a href="https://twitter.com/UniversidadUNAD" target="_blank"><img src=			 "img/twitter_aqu_32.png" class="menu" title="Twitter" border="0" /></a></span></div> 
@@ -67,19 +73,21 @@
                    </form>
                 </div>
              </nav>
-            <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>									</div>
-    <section>
-    <h2>Actividades académicas</h2>
-    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
-                    <p>
-                        Para desarrollar la actividad de la sopa de letras de clic en la siguiente imagen.   
-                    </p>
-                <article>
-                    <figure>
-                        <a href="http://buscapalabras.com.ar/sopa-de-letras-de-seguridad-inform%C3%A1tica_1.html" target="_blank" ><img style="width: 560px;" src="img/SopaLetras.png" alt="Diseno"></a>
-                  	</figure>
-      			</article>
-    </section>
+            <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a></div>
+
+            
+            <section>
+                <h2>LECTURAS - UNAD ECBTI</h2>
+                    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
+                    <article>
+                        <figure>
+                            <img src="img/lectura1.jpg" alt="Diseno">
+                        </figure>
+                        <p>
+                            Definición: La seguridad informática es una disciplina que se encarga de proteger la integridad y la privacidad de la información almacenada en un sistema informático. De todas formas, no existe ninguna técnica que permita asegurar la inviolabilidad de un sistema.<br>     
+                            
+            </section>
+            
     <aside> 
                 <div id="apDiv5">
                 <div id="apDiv11">Nuestra UNAD</div>
@@ -107,22 +115,3 @@
     <script src="js/prefixfree.min.js"></script>
     <script src="js/jquery-2.1.1.js"></script>   
 </html>
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
