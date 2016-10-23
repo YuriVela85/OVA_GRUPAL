@@ -500,7 +500,7 @@ display: inline-block
     
 }
 
-/*display: inline-block;*/
+
 .menu li:hover ul {
 display:block;
 position: absolute;
