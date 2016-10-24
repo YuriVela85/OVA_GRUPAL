@@ -523,3 +523,12 @@ position:absolute;
 min-width:130px;
 }
 
+.cssTitulosActividades {
+    font-weight: bold;
+}
+
+.scrollIndex {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 713px;
+}
